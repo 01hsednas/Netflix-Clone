@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: myfont;
+    src: url(netflix.otf);
+}
+.netflix{
+    color: #e50914;
+    font-weight: bold;
+    font-family: myfont;
+    font-size: 50px;
+}
+#nav{
+    padding: 3% 10% 0% 10%;
+}
+.signinbutton{
+    padding: 10px 20px;
+    font-weight: bold;
+    float: right;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signinbutton:hover{
+    background-color: #c11119;
+}
+.container{
+    color: white;
+    text-align: center;
+    letter-spacing: normal;
+    margin-top: 200px;
+}
+
+#email{
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.getstarted{
+    margin-left: 5px;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.getstarted:hover{
+    background-color: #c11119;
+}
+
+.bgimage{
+    height:100% ;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+    url("backgroud.png");
+    
+}
+ #ab{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    margin-top: 20px;
+ }
+
+ #ac{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    margin-top: 20px;
+ }
