@@ -2,7 +2,6 @@
 
 This project is a clone of the Netflix landing page, created as a practice exercise for web development.
 
-
 ## Technologies Used
 
 - HTML: Markup language for structuring the content of the web page.
@@ -11,7 +10,6 @@ This project is a clone of the Netflix landing page, created as a practice exerc
 - (Optional) Bootstrap: Front-end framework for building responsive and mobile-first websites.
 
 ## Setup
-
 
 1. Clone the repository to your local machine.
 2. Open the project directory in your preferred code editor.
